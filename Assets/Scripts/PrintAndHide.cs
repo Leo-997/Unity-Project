@@ -17,6 +17,6 @@ public class PrintAndHide : MonoBehaviour
     {
         i++;
         Debug.Log(gameObject.name+":"+i);
-        
+        //GameObject.FindGameObjectWithTag("Red");
     }
 }
