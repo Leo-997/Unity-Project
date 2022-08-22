@@ -9,14 +9,13 @@ public class LoadAssets : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-<<<<<<< Updated upstream
+
         Application.targetFrameRate = 60;
         Instantiate(redObj, new Vector3(2,0,0), Quaternion.identity);
         Instantiate(blueObj, new Vector3(-2, 0, 0), Quaternion.identity);
-=======
-        Instantiate(redObj, Vector3.zero, Quaternion.identity);
-        //Instantiate(blueObj, Vector3., Quaternion.identity);
->>>>>>> Stashed changes
+
+  
+
     }
 
     // Update is called once per frame
